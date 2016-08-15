@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html ng-app="ngBoilerplate" ng-strict-di>
+<!--<html ng-app="ngBoilerplate" ng-strict-di>-->
+<html ng-app="ngBoilerplate">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,6 +14,11 @@
 
   <body>
     <h1>Hello</h1>
+    <ul>
+      <li ><a href ui-sref="home">Home</a></li>
+      <li> <a href ui-sref="about">About</a></li>
+      <li> <a href ui-sref="contact">Contact</a></li>
+    </ul>
     <div ui-view></div>
   </body>
 

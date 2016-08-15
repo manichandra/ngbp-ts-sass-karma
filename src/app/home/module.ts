@@ -3,11 +3,11 @@
 
 /* @ngInject */
 function homeConfig($stateProvider: ng.ui.IStateProvider) {
-  $stateProvider.state("home", {
-    url: "/home",
-    controller: "HomeController as vm",
-    templateUrl: "home/index.html"
-  });
+    $stateProvider.state("home", {
+        url: "/home",
+        controller: "HomeController as vm",
+        templateUrl: "home/index.html"
+    });
 }
 
 angular

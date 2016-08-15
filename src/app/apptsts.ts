@@ -1,7 +1,7 @@
 /// <reference path="../types/types.ts"/>
 
-
-/* @ngInject */
+/*
+/!* @ngInject *!/
 function appConfig($urlRouterProvider: ng.ui.IUrlRouterProvider) {
   $urlRouterProvider.otherwise("/home");
 }
@@ -10,6 +10,7 @@ angular
   .module("ngBoilerplate", [
     "templates",
     "ngBoilerplate.home",
+      "ngBoilerplate.about",
     "ui.router.state"
   ])
-  .config(appConfig);
+  .config(appConfig);*/
